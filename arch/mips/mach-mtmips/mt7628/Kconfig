@@ -35,6 +35,11 @@ config BOARD_VOCORE2
 	  VoCore VoCore2 board has a MT7628 SoC with 128 MiB of RAM
 	  and 16 MiB of flash (SPI).
 
+config BOARD_XIAOMI4C
+        bool "Xiaomi4C"
+        help
+          The board has 64 MiB DDR2, 16 MiB SPI-NOR flash.
+
 endchoice
 
 config SPL_UART2_SPIS_PINMUX
@@ -55,5 +60,6 @@ config SYS_CONFIG_NAME
 source "board/gardena/smart-gateway-mt7688/Kconfig"
 source "board/seeed/linkit-smart-7688/Kconfig"
 source "board/vocore/vocore2/Kconfig"
+source "board/xiaomi/xiaomi4c/Kconfig"
 
 endif

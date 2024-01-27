@@ -1,0 +1,12 @@
+if BOARD_XIAOMI4C
+
+config SYS_BOARD
+	default "xiaomi4c"
+
+config SYS_VENDOR
+	default "xiaomi"
+
+config SYS_CONFIG_NAME
+	default "xiaomi4c"
+
+endif

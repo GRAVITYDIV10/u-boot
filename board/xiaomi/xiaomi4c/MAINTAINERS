@@ -1,0 +1,7 @@
+XIAOMI4C BOARD
+M:	Lu <gravitydiv10@protonmail.com>
+S:	Maintained
+F: board/xiaomi/xiaomi4c
+F: include/configs/xiaomi4c.h
+F: configs/xiaomi4c_defconfig
+F: arch/mips/dts/xiaomi4c.dts
